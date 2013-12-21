@@ -21,6 +21,7 @@
 		7BF2C5D6185F9D0300622FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2C5B8185F9D0300622FAF /* UIKit.framework */; };
 		7BF2C5DE185F9D0300622FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BF2C5DC185F9D0300622FAF /* InfoPlist.strings */; };
 		7BF2C5E0185F9D0300622FAF /* HearMeNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2C5DF185F9D0300622FAF /* HearMeNowTests.m */; };
+		7BF2C5EA18623DC100622FAF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF2C5E918623DC100622FAF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		7BF2C5DB185F9D0300622FAF /* HearMeNowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HearMeNowTests-Info.plist"; sourceTree = "<group>"; };
 		7BF2C5DD185F9D0300622FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BF2C5DF185F9D0300622FAF /* HearMeNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HearMeNowTests.m; sourceTree = "<group>"; };
+		7BF2C5E918623DC100622FAF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF2C5EA18623DC100622FAF /* AVFoundation.framework in Frameworks */,
 				7BF2C5B7185F9D0300622FAF /* CoreGraphics.framework in Frameworks */,
 				7BF2C5B9185F9D0300622FAF /* UIKit.framework in Frameworks */,
 				7BF2C5B5185F9D0300622FAF /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		7BF2C5B3185F9D0300622FAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BF2C5E918623DC100622FAF /* AVFoundation.framework */,
 				7BF2C5B4185F9D0300622FAF /* Foundation.framework */,
 				7BF2C5B6185F9D0300622FAF /* CoreGraphics.framework */,
 				7BF2C5B8185F9D0300622FAF /* UIKit.framework */,
